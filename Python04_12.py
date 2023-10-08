@@ -10,3 +10,7 @@ lista_tuplas = [ (len(i),i) for i in sequencias ] # usando list comprehension
 for item in lista_tuplas:
  print (item[0] , "\t" , item [1])
 
+print (lista_tuplas)
+
+
+
