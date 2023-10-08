@@ -8,9 +8,9 @@ sequencias = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGG
 lista_tuplas = [ (len(i),i) for i in sequencias ] # usando list comprehension
 
 for item in lista_tuplas:
- print (item[0] , "\t" , item [1])
+ print (item[0] , "\t" , item [1]) # print de cada elemento
 
-print (lista_tuplas)
+print (lista_tuplas) # print da lista toda
 
 
 
